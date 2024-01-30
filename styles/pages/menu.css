@@ -12,3 +12,21 @@
 .menu_header strong {
     color: var(--red-highlight)
 }
+
+
+@media screen and (max-width: 768px) {
+    .menu_header {
+        padding: 2.25rem 0 0 0;
+        text-align: center;
+    }
+    .menu_header h1{
+        margin-bottom:3.06rem;
+    }
+
+        .menu_header p {
+            display: none;
+        }
+        .banner-menu{
+            margin-top: 2.62rem;
+        }
+}

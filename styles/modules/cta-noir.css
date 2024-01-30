@@ -12,3 +12,12 @@
     line-height: var(--title-line-height);
     padding: 0.88rem 2.94rem 0.81rem 3rem;
 }
+
+@media screen and (max-width: 768px) {
+
+    .cta-noir {
+        padding: 0.75rem 4.81rem 0.75rem 4.88rem;
+        width: 16rem;
+        height: 3rem;
+    }
+}

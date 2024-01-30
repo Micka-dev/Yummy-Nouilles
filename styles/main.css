@@ -101,4 +101,8 @@ h2 {
         --header-line-height: 3rem;
         --title-line-height: 1.5rem;
     }
+    body {
+        width: 23.4375rem;
+        margin:auto;
+    }
 }

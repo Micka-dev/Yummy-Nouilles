@@ -9,7 +9,6 @@ footer {
 
 footer img {
     padding:5.75rem 0 5.5rem 0;
-    color:red;
 }
 
 footer .m {
@@ -23,3 +22,30 @@ footer .m {
     footer .f {
         padding-right: 3.5rem;
     }
+
+@media screen and (max-width: 768px) {
+    footer {
+        width: 23.4275rem;
+        height: 11.5rem;
+        justify-content: center;
+    }
+
+        footer img {
+            padding: 4.75rem 0 4.5rem 0;
+        }
+
+        footer .m {
+            padding-right: 6rem;
+        }
+
+        footer .i {
+            padding-left:6.19rem;
+            padding-right: 0;
+        }
+
+        footer .f {
+            padding-right: 2.25rem;
+            padding-left: 2.25rem;
+        }
+
+}
