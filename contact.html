@@ -4,54 +4,58 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Yummy Nouilles - Accueil</title>
-	<link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
+	<link rel="icon" type="image/svg+xml" href="assets/logo.svg"> 
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
-	<header>
-		<img src="assets/Logo.svg" alt="logo du site Yummy Nouilles">
-		<nav>
-			<a href="index.html">Accueil</a>
-			<a href="menu.html">Menu</a>
-			<a href="contact.html">Contact</a>
+	<header class="appBar">
+		<img class="appBar_icon" src="assets/Logo.svg" alt="logo du site Yummy Nouilles">
+		<nav class="appBar_nav">
+			<a class="appBar_nav_item" href="index.html">Accueil</a>
+			<a class="appBar_nav_item" href="menu.html">Menu</a>
+			<a class="appBar_nav_item active" href="contact.html">Contact</a>
 		</nav>
 	</header>
 <main>
-    <section class="cta banner">
-        <p class=" body_highlight">Commandez maintenant !</p>
-        <a href="contact.html" class="cta h1">CLICK & COLLECT</a>
-    </section>
+	<section class="cta-banner">
+		<p>Commandez maintenant !</p>
+		<a href="contact.html" class="cta-noir">CLICK & COLLECT</a>
+	</section>
 
-    <h2>NOS ADRESSES</h2>
-    <section class="adresses">
-		<div>
-			<p><strong>Yummy Noodle</strong> <br>185 rue de Lancry <br> 75010 Paris<br> +331 44 33 55 22<br> Lundi à dimanche - 12h à 23h</p>
-		</div>
-		<div>
-			<p><strong>Yu Noodle My</strong> <br>350 rue de Saint-Guillaume <br> 75007 Paris<br> +331 44 33 55 22<br> Lundi à dimanche - 12h à 22h</p>
-		</div>
-		<div>
-			<p><strong>XLes Yummy Nouilles</strong> <br>208 rue au Maire <br> 75003 Paris<br> +331 44 33 55 22<br> Lundi à dimanche - 12h à 23h</p>
+    <section class="adresses-2">
+		<h1>NOS ADRESSES</h1>
+		<div class="adresses-2_lieux">
+			<div>
+				<p><strong>Yummy Noodle</strong> <br>185 rue de Lancry <br> 75010 Paris<br> +331 44 33 55 22<br> Lundi à dimanche - 12h à 23h</p>
+			</div>
+			<div>
+				<p><strong>Yu Noodle My</strong> <br>350 rue de Saint-Guillaume <br> 75007 Paris<br> +331 44 33 55 22<br> Lundi à dimanche - 12h à 22h</p>
+			</div>
+			<div>
+				<p><strong>XLes Yummy Nouilles</strong> <br>208 rue au Maire <br> 75003 Paris<br> +331 44 33 55 22<br> Lundi à dimanche - 12h à 23h</p>
+			</div>
 		</div>
 	</section>
 
-    <section>
+	<section class="contact">
 		<h2>CONTACTEZ-NOUS</h2>
-		<p>Vous souhaitez nous poser une question, nous faire un feedback, ou tout simplement nous contacter ?<br>
+		<p>
+			Vous souhaitez nous poser une question, nous faire un feedback, ou tout simplement nous contacter ?<br>
 			Écrivez-nous à <strong>yummy@noodles.fr</strong> ou appelez nous au <strong>01 13 86 23 42</strong>
 		</p>
 	</section>
 </main>
 <footer>
-    <a target="_blank" href="https://www.facebook.com/yummy_nouilles/"> 
-        <img src="assets\icons\facebook.svg" alt="icone facebook">
-    </a>
-    <a target="_blank" href="https://instagram.com/yummy_nouilles/"> 
-        <img src="assets\icons\instagram.svg" alt="icone instagram">
-    </a>
-    <a target="_blank" href="https://www.google.com/search?q=yummy+nouilles"> 
-        <img src="assets\icons\maps-and-flags.svg" alt="icone maps-and-flags">
-    </a>
+	<a target="_blank" class="f" href="https://www.facebook.com/yummy_nouilles/">
+		<img src="assets\icons\facebook.svg" alt="icone facebook">
+	</a>
+	<a target="_blank" class="i" href="https://instagram.com/yummy_nouilles/">
+		<img src="assets\icons\instagram.svg" alt="icone instagram">
+	</a>
+	<a target="_blank" class="m" href="https://www.google.com/search?q=yummy+nouilles">
+		<img src="assets\icons\maps-and-flags.svg" alt="icone maps-and-flags">
+	</a>
 </footer>
 
 </body>

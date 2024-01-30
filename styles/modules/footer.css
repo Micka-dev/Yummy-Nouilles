@@ -1,0 +1,25 @@
+
+footer {
+    width: 90rem;
+    height: 13.5rem;
+    background-color:var(--black);
+    display:flex;
+    justify-content:flex-end;
+}
+
+footer img {
+    padding:5.75rem 0 5.5rem 0;
+    color:red;
+}
+
+footer .m {
+    padding-right:4.5rem;
+}
+
+    footer .i {
+        padding-right: 3.31rem;
+    }
+
+    footer .f {
+        padding-right: 3.5rem;
+    }

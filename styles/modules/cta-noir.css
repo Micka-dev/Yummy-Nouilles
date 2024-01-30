@@ -1,0 +1,14 @@
+/* CTA noir */
+.cta-noir {
+    background-color: var(--black);
+    width: 13.5rem;
+    height: 3.5rem;
+    color: var(--white);
+    text-decoration: none;
+    font-family: var(--title-font-family);
+    font-style: var(--title-font-style);
+    font-weight: var(--title-font-weight);
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    padding: 0.88rem 2.94rem 0.81rem 3rem;
+}

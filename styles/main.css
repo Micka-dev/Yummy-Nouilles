@@ -1,0 +1,104 @@
+/* polices importées*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+/* Modules */
+@import 'modules/appBar.css';
+@import 'modules/cta-noir.css';
+@import 'modules/cta-banner.css';
+@import 'modules/section-contact.css';
+@import 'modules/footer.css';
+/* pages */
+@import 'pages/home.css';
+@import 'pages/menu.css';
+@import 'pages/contact.css';
+
+* {
+    margin: 0;
+}
+
+/*design system*/
+:root {
+    /*colors*/
+    --red-highlight: #D2483D;
+    --light-grey: #F3F3F3;
+    --black: #000000;
+    --white: #FFFFFF;
+    /*Text configuration*/
+    /* Header */
+    --header-font-family: "Bebas Neue";
+    --header-font-size: 4.5rem;
+    --header-font-style: normal;
+    --header-font-weight: 400;
+    --header-line-height: 5.375rem;
+    /* Title */
+    --title-font-family: "Bebas Neue";
+    --title-font-size: 1.5rem;
+    --title-font-style: normal;
+    --title-font-weight: 400;
+    --title-line-height: 1.75rem;
+    /* Body highlight */
+    --body-hihlight-font-family: Montserrat;
+    --body-hihlight-font-size: 1.25rem;
+    --body-hihlight-font-style: normal;
+    --body-hihlight-font-weight: 600;
+    --body-hihlight-line-height: 1.5rem;
+    /* Body */
+    --body-font-family: Montserrat;
+    --body-font-size: 1.25rem;
+    --body-font-style: normal;
+    --body-font-weight: 400;
+    --body-line-height: 1.5rem;
+}
+
+body {
+    background: var(--light-grey, #F3F3F3);
+    font-family: var(--body-font-family);
+    font-style: var(--body-font-style);
+    font-weight: var(--body-font-weight);
+    font-size: var(--body-font-size);
+    line-height: var(--body-line-height);
+    color: var(--black);
+    /* dimension page*/
+    width: 90rem;
+    height: 166.375rem;
+}
+
+h1 {
+    font-family: var(--header-font-family);
+    font-style: var(--header-font-style);
+    font-weight: var(--header-font-weight);
+    font-size: var(--header-font-size);
+    line-height: var(--header-line-height);
+    color: var(--black);
+}
+
+h2 {
+    font-family: var(--title-font-family);
+    font-style: var(--title-font-style);
+    font-weight: var(--title-font-weight);
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    color: var(--black);
+    text-decoration: underline var(--red-highlight);
+    text-underline-offset:0.25rem;
+    text-decoration-thickness:0.188rem;
+}
+
+.body_highlight {
+    font-weight: var(--body-hihlight-font-weight);
+}
+
+
+@media screen and (max-width: 768px) {
+    :root {
+        /* Mobile Variables */
+        --body-font-size: 1rem;
+        --body-highlight-font-size: 1rem;
+        --header-font-size: 2.5rem;
+        --title-font-size: 1.25rem;
+        --body-line-height: 1.25rem;
+        --body-highlight-line-height: 1.25rem;
+        --header-line-height: 3rem;
+        --title-line-height: 1.5rem;
+    }
+}

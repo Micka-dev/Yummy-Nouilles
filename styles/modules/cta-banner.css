@@ -1,0 +1,14 @@
+/* CTA-banner */
+.cta-banner {
+    background-color: var(--red-highlight);
+    width: 90rem;
+    height: 13.5rem;
+    text-align:center;
+}
+
+    .cta-banner p {
+        color: var(--white);
+        padding-top: 3.75rem;
+        padding-bottom:1.88rem;
+    }
+

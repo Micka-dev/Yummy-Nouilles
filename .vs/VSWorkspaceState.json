@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\styles",
+    "\\styles\\modules"
   ],
+  "SelectedNode": "\\styles\\modules\\cta-banner.css",
   "PreviewInSolutionExplorer": false
 }

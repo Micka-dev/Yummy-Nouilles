@@ -1,0 +1,14 @@
+
+.menu_header {
+    display:flex;
+    flex-direction:column;
+    padding:2.25rem 10rem 0 9.44rem;
+}
+
+.menu_header p {
+    margin-bottom:2.25rem;
+}
+
+.menu_header strong {
+    color: var(--red-highlight)
+}

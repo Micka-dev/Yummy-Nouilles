@@ -1,0 +1,15 @@
+
+.adresses-2 {
+    margin-top: 6rem;
+}
+
+.adresses-2 h1 {
+    margin:0 35rem 2.5rem 35.06rem
+}
+
+.adresses-2_lieux {
+    display:flex;
+    gap:2.5rem;
+    padding-left: 10rem;
+    margin-bottom:6rem;
+}
