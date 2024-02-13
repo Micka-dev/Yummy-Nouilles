@@ -1,29 +1,28 @@
 /* CTA-banner */
 .cta-banner {
     background-color: var(--red-highlight);
-    width: 90rem;
-    height: 13.5rem;
-    text-align:center;
+    color: var(--white);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:3.75rem 0;
 }
 
-    .cta-banner p {
-        color: var(--white);
-        padding-top: 3.75rem;
-        padding-bottom:1.88rem;
-    }
+.cta-banner__title {
+    font-weight: var(--body-hightlight-font-weight);
+    margin-bottom: 1rem;
+}
 
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
 
     .cta-banner {
-        width: 23.4375rem;
-        height: 11.5rem;
+        padding: 2.56rem 0 2.75rem 0;
     }
-        .cta-banner p {
-            color: var(--white);
-            padding-top: 2.56rem;
-            padding-bottom: 1.88rem;
-        }
+    .cta-banner__title {
+        margin-bottom: 1.94rem;
+    }
 
 }
 

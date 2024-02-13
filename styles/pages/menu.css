@@ -1,32 +1,106 @@
-
-.menu_header {
+.banner-menu {
+    margin-top: 1.69rem;
+}
+.menu {
     display:flex;
     flex-direction:column;
-    padding:2.25rem 10rem 0 9.44rem;
+    margin:2.25rem 10rem 0 9.44rem;
 }
 
-.menu_header p {
-    margin-bottom:2.25rem;
+.menu__title {
+    margin-bottom:2.25rem 0 0 0;
 }
 
-.menu_header strong {
+.body_highlight strong {
     color: var(--red-highlight)
 }
 
+    .menu__subtitle {
+    margin: 0 0 2.25rem 0;
+}
 
-@media screen and (max-width: 768px) {
-    .menu_header {
-        padding: 2.25rem 0 0 0;
-        text-align: center;
-    }
-    .menu_header h1{
-        margin-bottom:3.06rem;
+.menu__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    text-align: center;
+}
+
+.menu__icon {
+    width: 9rem;
+    height: 9rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.menu__part {
+    margin-bottom: 3.8rem;
+}
+
+.menu__partTitle {
+    margin-bottom: 1.42rem;
+}
+
+.menu__partDish {
+    margin-bottom: 2rem;
+    line-height: 2.5rem;
+}
+
+@media (max-width: 768px) {
+
+    .banner-menu {
+        margin-top: 2.62rem;
     }
 
-        .menu_header p {
-            display: none;
-        }
-        .banner-menu{
-            margin-top: 2.62rem;
-        }
+    .menu {
+        margin: 2.25rem 0 0 0;
+        align-items: center;
+    }
+    
+    .menu__title{
+        margin-bottom:1.81rem;
+    }
+
+    .menu__subtitle {
+        display: none;
+    }
+
+    .menu__icon {
+        width: 4rem;
+        height: 4rem;
+        margin-top: 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .menu__dishDescription {
+        display: none;
+    }
+
+    .menu__part {
+        margin-bottom: 0;
+    }
+
+    .menu__partTitle {
+        margin-bottom: 0.5rem;
+    }
+
+    .menu__card {
+        width: 19.5rem;
+        padding-bottom: 1.12rem;
+    }
+
+    /* dans le corrigé il est mis font-size: 0.75rem; line-height: 1rem;
+        alors que sur la maquette : font-size: 1rem; line-height: 1.25rem;
+        => bizarre! j'ai enlevé car c'est déjà réglé dans le :root
+        de plus la hauteur des bloc contenant le nom des plats est de
+        2.25rem pour une hauteur de ligne de 1.25rem => j'en deduis 1rem
+        d'espacement => voir avec le mentor si c'est comme cela qu'il faut 
+        raisonner ça me paraît beaucoup
+    */
+  .menu__partDish {
+    margin-bottom: 1rem;
+  }
+
+  
 }
