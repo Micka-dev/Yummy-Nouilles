@@ -4,21 +4,20 @@
     padding: 1rem 0 1rem 3rem;
 }
 
-.appBar_icon {
+.appBar__icon {
     width: 4.5rem;
     height: 4.5rem;
 }
 
-.appBar_nav {
+.appBar__nav {
     display:flex;
     align-items:center;
     padding-left:2rem;
 }
 
-.appBar_nav_item {
+.appBar__navItem {
     margin-right: 1rem;
-    text-decoration:none;
-
+    text-decoration: none;
     font-family: var(--title-font-family);
     font-style: var(--title-font-style);
     font-weight: var(--title-font-weight);
@@ -27,27 +26,27 @@
     color: var(--black);
 }
 
-    .appBar_nav_item:hover,
-    .appBar_nav_item.active {
+    .appBar__navItem:hover,
+    .appBar__navItem.active {
         text-decoration: underline var(--red-highlight);
         text-underline-offset: 0.25rem;
         text-decoration-thickness: 0.188rem;
     }
 
 
-    @media screen and (max-width: 768px) {
+    @media (max-width: 768px) {
   .appBar {
     padding-left: 0;
     padding-right: 0;
     justify-content: center;
   }
 
-  .appBar_icon {
+  .appBar__icon {
     width: 3rem;
     height: 3rem;
   }
 
-  .appBar_nav {
+  .appBar__nav {
     padding-left: 1rem;
   }
 }

@@ -4,110 +4,111 @@
 <head>
     <meta charset="UTF-8">
     <title>Yummy Nouilles - Accueil</title>
-    <link rel="icon" type="image/svg+xml" href="assets/logo.svg"> 
+    <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
     <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
     <header class="appBar">
-        <img class="appBar_icon" src="assets/Logo.svg" alt="logo du site Yummy Nouilles">
-        <nav class="appBar_nav">
-            <a class="appBar_nav_item" href="index.html">Accueil</a>
-            <a class="appBar_nav_item active" href="menu.html">Menu</a>
-            <a class="appBar_nav_item" href="contact.html">Contact</a>
+        <img class="appBar__icon" src="assets/Logo.svg" alt="logo du site Yummy Nouilles">
+        <nav class="appBar__nav">
+            <a class="appBar__navItem" href="index.html">Accueil</a>
+            <a class="appBar__navItem active" href="menu.html">Menu</a>
+            <a class="appBar__navItem" href="contact.html">Contact</a>
         </nav>
     </header>
-<main>
-    <section class="cta-banner">
-        <p>Commandez maintenant !</p>
-        <a href="contact.html" class="cta-noir">CLICK & COLLECT</a>
-    </section>
+    <main>
+        <section class="cta-banner banner-menu">
+            <p class="cta-banner__title">Commandez maintenant !</p>
+            <a href="contact.html" class="cta-noir">CLICK & COLLECT</a>
+        </section>
 
-    <section class="menu_header">
-        <div>
-            <h1>MENU</h1>
-            <p class="body_highlight">
+        <section class="menu">
+            <h1 class="menu__title">MENU</h1>
+            <p class="menu__subtitle body_highlight">
                 Nos menus sont <strong>communs</strong> à tous nos restaurants
             </p>
-        </div>
+
+            <!--image du menu (carte) pas responsive? Ecriture trop petite!
         <div>
-            <img src="assets\img\menu\A4 - 3.png" alt="menu du jour">
-        </div>
+        <img src="assets\img\menu\A4 - 3.png" alt="menu du jour">
+    </div>-->
 
-        <!--<div> image déjà dans le menu
-            <img src="assets/logo.svg" alt="Logo Yummy Nouilles">
-        </div>-->
+            <div class="menu__card">
+                <img src="assets/logo.svg" alt="Logo Yummy Nouilles" class="menu__icon">
+                <div class="menu__part">
+                    <h2 class="menu__partTitle">Entrées</h2>
+                    <p class="menu__partDish">
+                        <strong class="menu__dishTitle">Jiaozi faits maison végétariens</strong><br>
+                        <span class="menu__dishDescription">Raviolis fourrés au maïs et champignons</span>
+                    </p>
+                    <p class="menu__partDish">
+                        <strong class="menu__dishTitle">Tofu frit</strong><br>
+                        <span class="menu__dishDescription">Tofu frit à la taïwanaise</span>
+                    </p>
+                    <p class="menu__partDish">
+                        <strong class="menu__dishTitle">Xiaolongbao à la truffe</strong><br>
+                        <span class="menu__dishDescription">Délicats raviolis farcis à la viande</span>
+                    </p>
+                </div>
+                <div class="menu__part">
+                    <h2 class="menu__partTitle">Plats</h2>
+                    <p class="menu__partDish">
+                        <strong class="menu__dishTitle">Biang biang mian végétariennes</strong><br>
+                        <span class="menu__dishDescription">
+                            Épaisses nouilles faites à la main accompagnées d’un
+                            bouillon
+                        </span>
+                    </p>
+                    <p class="menu__partDish">
+                        <strong class="menu__dishTitle">Soupe de nouilles au boeuf</strong><br>
+                        <span class="menu__dishDescription">
+                            Nouilles faites maison dans un bouillon légèrement
+                            relevé
+                        </span>
+                    </p>
+                    <p class="menu__partDish">
+                        <strong class="menu__dishTitle">Nouilles froides au sésame</strong><br>
+                        <span class="menu__dishDescription">Nouilles froides au poulet, sauce au sésame</span>
+                    </p>
+                </div>
+                <div class="menu__part">
+                    <h2 class="menu__partTitle">Desserts</h2>
+                    <p class="menu__partDish">
+                        <strong class="menu__dishTitle">Pudding au tofu</strong><br>
+                        <span class="menu__dishDescription">Tofu soyeux baignant dans un sirop au gingembre</span>
+                    </p>
+                </div>
+                <div class="menu__part">
+                    <h2 class="menu__partTitle">Boissons</h2>
+                    <p class="menu__partDish">
+                        <strong class="menu__dishTitle">Taïwan Beer</strong><br>
+                        <strong class="menu__dishTitle">Bubble tea à la mûre</strong><br>
+                        <strong class="menu__dishTitle">Thé Oolong</strong><br>
+                    </p>
+                </div>
+            </div>
+        </section>
 
-
-        <!-- correction avec détail du menu codé:
-         <h2>Entrées</h2>
-         <p>
-           <strong>Jiaozi faits maison végétariens</strong><br>
-           Raviolis fourrés au maïs et champignons
-         </p>
-         <p>
-           <strong>Tofu frit</strong><br>
-           Tofu frit à la taïwanaise
-         </p>
-         <p>
-           <strong>Xiaolongbao à la truffe</strong><br>
-           Délicats raviolis farcis à la viande
-         </p>
-       </div>
-       <div>
-         <h2>Plats</h2>
-         <p>
-           <strong>Biang biang mian végétariennes</strong><br>
-           Épaisses nouilles faites à la main accompagnées d’un bouillon
-         </p>
-         <p>
-           <strong>Soupe de nouilles au boeuf</strong><br>
-           Nouilles faites maison dans un bouillon légèrement relevé
-         </p>
-         <p>
-           <strong>Nouilles froides au sésame</strong><br>
-           Nouilles froides au poulet, sauce au sésame
-         </p>
-       </div>
-       <div>
-         <h2>Desserts</h2>
-         <p>
-           <strong>Pudding au tofu</strong><br>
-           Tofu soyeux baignant dans un sirop au gingembre
-         </p>
-       </div>
-       <div>
-         <h2>Boissons</h2>
-         <p>
-           <strong>Taïwan Beer</strong><br>
-           <strong>Bubble tea à la mûre</strong><br>
-           <strong>Thé Oolong</strong><br>
-         </p>
-       </div>
-     </div>
-    -->
-
-    </section>
-
-    <section class="contact">
-        <h2>CONTACTEZ-NOUS</h2>
-        <p>
-            Vous souhaitez nous poser une question, nous faire un feedback, ou tout simplement nous contacter ?<br>
-            Écrivez-nous à <strong>yummy@noodles.fr</strong> ou appelez nous au <strong>01 13 86 23 42</strong>
-        </p>
-    </section>
-</main>
-<footer>
-    <a target="_blank" class="f" href="https://www.facebook.com/yummy_nouilles/">
-        <img src="assets\icons\facebook.svg" alt="icone facebook">
-    </a>
-    <a target="_blank" class="i" href="https://instagram.com/yummy_nouilles/">
-        <img src="assets\icons\instagram.svg" alt="icone instagram">
-    </a>
-    <a target="_blank" class="m" href="https://www.google.com/search?q=yummy+nouilles">
-        <img src="assets\icons\maps-and-flags.svg" alt="icone maps-and-flags">
-    </a>
-</footer>
+        <section class="contactDetails">
+            <h2 class="contactDetails__title">CONTACTEZ-NOUS</h2>
+            <p class="contactDetails__text">
+                Vous souhaitez nous poser une question, nous faire un feedback, ou tout simplement nous contacter ?<br>
+                Écrivez-nous à <strong>yummy@noodles.fr</strong> ou appelez nous au <strong>01 13 86 23 42</strong>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <a class="icon__insta" target="_blank" href="https://instagram.com/yummy_nouilles/">
+            <img src="assets\icons\instagram.svg" alt="icone instagram">
+        </a>
+        <a class="icon__facebook" target="_blank" href="https://www.facebook.com/yummy_nouilles/">
+            <img src="assets\icons\facebook.svg" alt="icone facebook">
+        </a>
+        <a class="icon__maps" target="_blank" href="https://www.google.com/search?q=yummy+nouilles">
+            <img src="assets\icons\maps-and-flags.svg" alt="Logo Google Maps">
+        </a>
+    </footer>
 
 </body>
 

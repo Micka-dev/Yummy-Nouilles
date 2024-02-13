@@ -5,7 +5,7 @@
 @import 'modules/appBar.css';
 @import 'modules/cta-noir.css';
 @import 'modules/cta-banner.css';
-@import 'modules/section-contact.css';
+@import 'modules/contactDetails.css';
 @import 'modules/footer.css';
 /* pages */
 @import 'pages/home.css';
@@ -58,9 +58,6 @@ body {
     font-size: var(--body-font-size);
     line-height: var(--body-line-height);
     color: var(--black);
-    /* dimension page*/
-    width: 90rem;
-    height: 166.375rem;
 }
 
 h1 {
@@ -89,7 +86,7 @@ h2 {
 }
 
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     :root {
         /* Mobile Variables */
         --body-font-size: 1rem;
@@ -100,9 +97,5 @@ h2 {
         --body-highlight-line-height: 1.25rem;
         --header-line-height: 3rem;
         --title-line-height: 1.5rem;
-    }
-    body {
-        width: 23.4375rem;
-        margin:auto;
     }
 }

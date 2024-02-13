@@ -6,65 +6,66 @@
 	<title>Yummy Nouilles - Accueil</title>
 	<link rel="icon" type="image/svg+xml" href="assets/logo.svg"> 
 	<link rel="stylesheet" href="styles/main.css">
-
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 </head>
 
 <body>
 	<header class="appBar" >
-		<img class="appBar_icon" src="assets/Logo.svg" alt="logo du site Yummy Nouilles">
-		<nav class="appBar_nav">
-			<a class="appBar_nav_item active" href="index.html">Accueil</a>
-			<a class="appBar_nav_item" href="menu.html">Menu</a>
-			<a class="appBar_nav_item" href="contact.html">Contact</a>
+		<img class="appBar__icon" src="assets/Logo.svg" alt="logo du site Yummy Nouilles">
+		<nav class="appBar__nav">
+			<a class="appBar__navItem active" href="index.html">Accueil</a>
+			<a class="appBar__navItem" href="menu.html">Menu</a>
+			<a class="appBar__navItem" href="contact.html">Contact</a>
 		</nav>
 	</header>
 <main>
 	<section class="hero">
-		<div>
-			<h1>YUMMY NOUILLES</h1>
-			<p class="body_highlight">Les nouilles les plus <strong>yummy</strong> de tout Paris
+
+		<div class="hero__titleContainer">
+			<h1 class="hero__title">YUMMY NOUILLES</h1>
+			<p class="hero__subtitle">Les nouilles les plus <strong>yummy</strong> de tout Paris
 			</p>
-			<a href="contact.html" class="cta-noir">CLICK & COLLECT</a>
+			
+			<div class="cta-noirContainer"> 
+				<a class="cta-noir" href="contact.html" >CLICK & COLLECT</a>
+			</div>
 		</div>
-		<img src="assets/Logo.svg" alt="logo Yummy Nouilles">
+		<img class ="hero__logo" src="assets/Logo.svg" alt="logo Yummy Nouilles">
 	</section>
 
-	<section class="adresses">
-		<h2>NOS ADRESSES</h2>
-		<div class="adresses_photos">
+	<section class="adress">
+		<h2 class="adress__title">NOS ADRESSES</h2>
+		<div class="adress__photos">
 			<div class="img1">
-				<img src="assets\img\restaurant\Yummy_lancry.jpg" alt="Photo du restaurant Yummy Nouilles rue du Lancry à Paris">
+				<img class="adress__img" src="assets\img\restaurant\Yummy_lancry.jpg" alt="Photo du restaurant Yummy Nouilles rue du Lancry à Paris">
 				<p class=info><strong>Yummy Noodle</strong> <br>185 rue de Lancry <br> 75010 Paris</p>
 			</div>
 			<div class="img2">
-				<img src="assets\img\restaurant\Yummy_saint_guillaume.jpg" alt="Photo du restaurant Yummy Nouilles rue Saint-Guillaume à Paris">
+				<img class="adress__img" src="assets\img\restaurant\Yummy_saint_guillaume.jpg" alt="Photo du restaurant Yummy Nouilles rue Saint-Guillaume à Paris">
 				<p class=info><strong>Yu Noodle My</strong> <br>350 rue de Saint-Guillaume <br> 75007 Paris</p>
 			</div>
 			<div class="img3">
-				<img src="assets\img\restaurant\Yummy_maine.jpg" alt="Image du restaurant Yummy Nouilles rue au Maine à Paris">
+				<img class="adress__img" src="assets\img\restaurant\Yummy_maine.jpg" alt="Image du restaurant Yummy Nouilles rue au Maine à Paris">
 				<p class=info ><strong> Yummy Nouilles</strong> <br>208 rue au Maire <br> 75003 Paris</p>
 			</div>
 		</div>
 	</section>
 	<section class="cta-banner">
-		<p class="body_highlight">Commandez maintenant !</p>
+		<p class="cta-banner__title">Commandez maintenant !</p>
 		<a href="contact.html" class="cta-noir">CLICK & COLLECT</a>
 	</section>
 
-	<section class="savoir-faire">
-		<h2>NOTRE SAVOIR-FAIRE</h2>
-		<p>Depuis près de 10 ans maintenant, nous partageons avec vous les meilleures recettes. Nos plats ont tous été
+	<section class="about">
+		<h2 class="about__title">NOTRE SAVOIR-FAIRE</h2>
+		<p class="about__text">Depuis près de 10 ans maintenant, nous partageons avec vous les meilleures recettes. Nos plats ont tous été
 			conçus, et affinés au fil des années et des goûts. Nous vous apportons le meilleur de l’Asie de l’Est en
 			plein coeur de Paris. Chaque année, nous reprenons tous nos plats pour les améliorer, les modifier et qu’ils
 			vous plaisent toujours plus. Nous espérons que vous vous régalerez en dégustant nos plats.
 		</p>
 	</section>
 
-	<section class="reseaux-sociaux">
-		<h2 class="reseaux">RETROUVEZ-NOUS SUR LES RÉSEAUX SOCIAUX</h2>
-		<div class="grid-reseaux">
+	<section class="socialMedia">
+		<h2 class="socialMedia__title">RETROUVEZ-NOUS SUR LES RÉSEAUX SOCIAUX</h2>
+		<div class="socialMedia__grid">
 				<img src="assets\img\social\cat.jpg" alt="image de chat mangeant des nouilles">
 				<img src="assets\img\social\bao.jpg" alt="image d'une assiette de nouilles">
 				<img src="assets\img\social\noodles.jpg" alt="image de baguette chinoise avec un bol de nouilles">
@@ -74,22 +75,22 @@
 		</div>
 	</section>
 
-	<section class="contact">
-		<h2>CONTACTEZ-NOUS</h2>
-		<p>Vous souhaitez nous poser une question, nous faire un feedback, ou tout simplement nous contacter ?<br>
+	<section class="contactDetails">
+		<h2 class="contactDetails__title">CONTACTEZ-NOUS</h2>
+		<p class="contactDetails__text">Vous souhaitez nous poser une question, nous faire un feedback, ou tout simplement nous contacter ?<br>
 			Écrivez-nous à <strong>yummy@noodles.fr</strong> ou appelez nous au <strong>01 13 86 23 42</strong>
 		</p>
 	</section>
 </main>
 <footer>
-    <a target="_blank" href="https://instagram.com/yummy_nouilles/">
-        <img class="i" src="assets\icons\instagram.svg" alt="icone instagram">
+    <a class="icon__insta" target="_blank" href="https://instagram.com/yummy_nouilles/">
+        <img src="assets\icons\instagram.svg" alt="icone instagram">
     </a>
-    <a target="_blank" href="https://www.facebook.com/yummy_nouilles/">
-        <img class="f" src="assets\icons\facebook.svg" alt="icone facebook">
+    <a class="icon__facebook" target="_blank" href="https://www.facebook.com/yummy_nouilles/">
+        <img src="assets\icons\facebook.svg" alt="icone facebook">
     </a>
-    <a target="_blank" href="https://www.google.com/search?q=yummy+nouilles">
-        <img class="m" src="assets\icons\maps-and-flags.svg" alt="icone maps-and-flags">
+    <a class="icon__maps" target="_blank" href="https://www.google.com/search?q=yummy+nouilles">
+        <img src="assets\icons\maps-and-flags.svg" alt="Logo Google Maps">
     </a>
 	</footer>
 
